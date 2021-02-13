@@ -1,10 +1,12 @@
 body {
-    background-color:#C0B8AF
-}
-h1 {
-    color:#C0B8AF;
-    background-color:#929487;
+    background-color:#E5DADA
 }
 
-
+nav {
+    background-color:#002642;
+    color: white
 }
+nav {
+    font-family: 'Lato', sans-serif;
+}
+
