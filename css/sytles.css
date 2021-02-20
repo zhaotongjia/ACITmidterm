@@ -3,10 +3,60 @@ body {
 }
 
 nav {
-    background-color:#002642;
-    color: white
-}
-nav {
+    color:#E5DADA;
     font-family: 'Lato', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#002642;
+    height: 35px;
+    color:#E5DADA;
+    font-family: 'Lato', sans-serif;
+    overflow:hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.content {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    margin-right:auto;
+}
+
+li a {
+    color:#E5DADA;
+    text-decoration: none;   
+}
+
+.link li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    margin: 150px, auto;
+    width: 70%;
+    padding: 20px;
+    display: inline-flex;
+}
+
+img {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+p {
+    padding-left: 100px;
+}
